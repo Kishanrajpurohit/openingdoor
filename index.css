@@ -1,55 +1,31 @@
 * {
   margin: 0;
   padding: 0;
-}
-.container1 {
-  display: grid;
-  position: absolute;
-  top: 150px;
-  width: 550px;
-  height: 315px;
-  background-color: #414140;
-  grid-template-columns: 90px 90px 90px 90px 90px auto;
-  grid-template-rows: 35px 35px 35px 35px 35px 35px;
-  grid-row-gap: 5px;
-  grid-column-gap: 5px;
-}
-.container2 {
-  display: grid;
-  position: absolute;
-  top: 150px;
-  right: 0;
-  width: 550px;
-  height: 315px;
-  background-color: #414140;
-  grid-template-columns: 90px 90px 90px 90px 90px auto;
-  grid-template-rows: 35px 35px 35px 35px 35px 35px;
-  grid-row-gap: 5px;
-  grid-column-gap: 5px;
+  box-sizing: border-box;
 }
 .d1 {
-  width: 20px;
+  width: 5.5%;
   height: 350px;
   background-color: #caa472;
   position: absolute;
   top: 115px;
-  left: 550px;
+  left: 0;
 }
 .d2 {
-  width: 20px;
+  width: 5.5%;
   height: 350px;
   background-color: #caa472;
   position: absolute;
   top: 115px;
-  right: 550px;
+  right: 0;
 }
 .d3 {
-  width: 436px;
+  width: 100%;
   height: 20px;
   background-color: #caa472;
   position: absolute;
   top: 95px;
-  left: 550px;
+  left: 0;
 }
 @keyframes d1animate {
   from {
@@ -62,13 +38,13 @@
   }
 }
 #d4 {
-  width: 196px;
+  width: 44.44%;
   height: 340px;
   background-color: #caa472;
   border: 1px solid black;
   position: absolute;
   top: 115px;
-  left: 570px;
+  left: 5.5%;
 }
 .bt1 {
   animation-name: d1animate;
@@ -79,7 +55,7 @@
   height: 15px;
   position: absolute;
   top: 160px;
-  left: 178px;
+  left: 89%;
   background-color: black;
   border-radius: 50%;
   border: none;
@@ -96,13 +72,13 @@
   }
 }
 #d5 {
-  width: 196px;
+  width: 44.44%;
   height: 340px;
   background-color: #caa472;
   border: 1px solid black;
   position: absolute;
   top: 115px;
-  right: 570px;
+  right: 5.5%;
 }
 .bt2 {
   animation-name: d2animate;
@@ -113,304 +89,16 @@
   height: 15px;
   position: absolute;
   top: 160px;
-  right: 178px;
+  right: 89%;
   background-color: black;
   border-radius: 50%;
   border: none;
   outline: none;
 }
-.d6 {
-  width: 1536px;
-  height: 287px;
+img {
+  width: 150px;
+  height: 150px;
   position: absolute;
-  top: 466px;
-  background-color: white;
-}
-.g1 {
-  background-color: #cb7341;
-}
-.g2 {
-  background-color: #cb7341;
-}
-.g3 {
-  background-color: #cb7341;
-}
-.g4 {
-  background-color: #cb7341;
-}
-.g5 {
-  background-color: #cb7341;
-}
-.g6 {
-  background-color: #cb7341;
-}
-.g7 {
-  background-color: #cb7341;
-}
-.g8 {
-  background-color: #cb7341;
-}
-.g9 {
-  background-color: #cb7341;
-}
-.g10 {
-  background-color: #cb7341;
-}
-.g11 {
-  background-color: #cb7341;
-}
-.g12 {
-  background-color: #cb7341;
-}
-.g13 {
-  background-color: #cb7341;
-}
-.g14 {
-  background-color: #cb7341;
-}
-.g15 {
-  background-color: #cb7341;
-}
-.g16 {
-  background-color: #cb7341;
-}
-.g17 {
-  background-color: #cb7341;
-}
-.g18 {
-  background-color: #cb7341;
-}
-.g19 {
-  background-color: #cb7341;
-}
-.g20 {
-  background-color: #cb7341;
-}
-.g21 {
-  background-color: #cb7341;
-}
-.g22 {
-  background-color: #cb7341;
-}
-.g23 {
-  background-color: #cb7341;
-}
-.g24 {
-  background-color: #cb7341;
-}
-.g25 {
-  background-color: #cb7341;
-}
-.g26 {
-  background-color: #cb7341;
-}
-.g27 {
-  background-color: #cb7341;
-}
-.g28 {
-  background-color: #cb7341;
-}
-.g29 {
-  background-color: #cb7341;
-}
-.g30 {
-  background-color: #cb7341;
-}
-.g31 {
-  background-color: #cb7341;
-}
-.g32 {
-  background-color: #cb7341;
-}
-.g33 {
-  background-color: #cb7341;
-}
-.g34 {
-  background-color: #cb7341;
-}
-.g35 {
-  background-color: #cb7341;
-}
-.g36 {
-  background-color: #cb7341;
-}
-.g37 {
-  background-color: #cb7341;
-}
-.g38 {
-  background-color: #cb7341;
-}
-.g39 {
-  background-color: #cb7341;
-}
-.g40 {
-  background-color: #cb7341;
-}
-.g41 {
-  background-color: #cb7341;
-}
-.g42 {
-  background-color: #cb7341;
-}
-.g43 {
-  background-color: #cb7341;
-}
-.g44 {
-  background-color: #cb7341;
-}
-.g45 {
-  background-color: #cb7341;
-}
-.g46 {
-  background-color: #cb7341;
-}
-.g47 {
-  background-color: #cb7341;
-}
-.g48 {
-  background-color: #cb7341;
-}
-.h1 {
-  background-color: #cb7341;
-}
-.h2 {
-  background-color: #cb7341;
-}
-.h3 {
-  background-color: #cb7341;
-}
-.h4 {
-  background-color: #cb7341;
-}
-.h5 {
-  background-color: #cb7341;
-}
-.h6 {
-  background-color: #cb7341;
-}
-.h7 {
-  background-color: #cb7341;
-}
-.h8 {
-  background-color: #cb7341;
-}
-.h9 {
-  background-color: #cb7341;
-}
-.h10 {
-  background-color: #cb7341;
-}
-.h11 {
-  background-color: #cb7341;
-}
-.h12 {
-  background-color: #cb7341;
-}
-.h13 {
-  background-color: #cb7341;
-}
-.h14 {
-  background-color: #cb7341;
-}
-.h15 {
-  background-color: #cb7341;
-}
-.h16 {
-  background-color: #cb7341;
-}
-.h17 {
-  background-color: #cb7341;
-}
-.h18 {
-  background-color: #cb7341;
-}
-.h19 {
-  background-color: #cb7341;
-}
-.h20 {
-  background-color: #cb7341;
-}
-.h21 {
-  background-color: #cb7341;
-}
-.h22 {
-  background-color: #cb7341;
-}
-.h23 {
-  background-color: #cb7341;
-}
-.h24 {
-  background-color: #cb7341;
-}
-.h25 {
-  background-color: #cb7341;
-}
-.h26 {
-  background-color: #cb7341;
-}
-.h27 {
-  background-color: #cb7341;
-}
-.h28 {
-  background-color: #cb7341;
-}
-.h29 {
-  background-color: #cb7341;
-}
-.h30 {
-  background-color: #cb7341;
-}
-.h31 {
-  background-color: #cb7341;
-}
-.h32 {
-  background-color: #cb7341;
-}
-.h33 {
-  background-color: #cb7341;
-}
-.h34 {
-  background-color: #cb7341;
-}
-.h35 {
-  background-color: #cb7341;
-}
-.h36 {
-  background-color: #cb7341;
-}
-.h37 {
-  background-color: #cb7341;
-}
-.h38 {
-  background-color: #cb7341;
-}
-.h39 {
-  background-color: #cb7341;
-}
-.h40 {
-  background-color: #cb7341;
-}
-.h41 {
-  background-color: #cb7341;
-}
-.h42 {
-  background-color: #cb7341;
-}
-.h43 {
-  background-color: #cb7341;
-}
-.h44 {
-  background-color: #cb7341;
-}
-.h45 {
-  background-color: #cb7341;
-}
-.h46 {
-  background-color: #cb7341;
-}
-.h47 {
-  background-color: #cb7341;
-}
-.h48 {
-  background-color: #cb7341;
+  left: 100px;
+  top: 200px;
 }
