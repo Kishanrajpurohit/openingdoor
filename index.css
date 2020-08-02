@@ -48,7 +48,8 @@
 }
 .bt1 {
   animation-name: d1animate;
-  animation-duration: 4s;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
 }
 #d4a {
   width: 15px;
@@ -82,7 +83,8 @@
 }
 .bt2 {
   animation-name: d2animate;
-  animation-duration: 4s;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
 }
 #d5a {
   width: 15px;
@@ -101,4 +103,29 @@ img {
   position: absolute;
   left: 100px;
   top: 200px;
+  border-radius: 8px;
+}
+h1 {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Ranchers", cursive;
+}
+h2 {
+  position: absolute;
+  top: 360px;
+  left: 95px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+}
+h3 {
+  position: absolute;
+  top: 470px;
+  left: 115px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Teko", sans-serif;
 }
